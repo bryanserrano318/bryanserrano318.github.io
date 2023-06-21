@@ -1,0 +1,755 @@
+.element-button-status {
+  border: 1px solid;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  position: relative;
+}
+
+.element-button-status .element-loader {
+  background-color: #fff0;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  position: relative;
+}
+
+.element-button-status .svg-container {
+  background-size: 100% 100%;
+  min-width: 12px;
+  height: 12px;
+  position: relative;
+}
+
+.element-button-status .svg {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.element-button-status .button {
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Inter, Helvetica;
+  font-weight: 600;
+  position: relative;
+}
+
+.element-button-status.focus {
+  overflow: hidden;
+}
+
+.element-button-status.SM {
+  height: 24px;
+  padding: 4px 12px;
+}
+
+.element-button-status.LG {
+  height: 40px;
+  padding: 12px 24px;
+}
+
+.element-button-status.disable {
+  background-color: #d0d5dd;
+  border-color: #d0d5dd;
+}
+
+.element-button-status.MD {
+  height: 32px;
+  padding: 4px 16px;
+}
+
+.element-button-status.active.success {
+  background-color: #024829;
+  border-color: #024829;
+}
+
+.element-button-status.focus.success {
+  background-color: #3ccb7f;
+  border-color: #3ccb7f;
+  box-shadow: 0 0 0 2px #09925040, 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+}
+
+.element-button-status.danger.active {
+  background-color: #5f1408;
+  border-color: #5f1408;
+}
+
+.element-button-status.default.success {
+  background-color: #16b364;
+  border-color: #16b364;
+}
+
+.element-button-status.warning.focus {
+  background-color: #fdb022;
+  border-color: #fdb022;
+  box-shadow: 0 0 0 2px #dc680340, 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+}
+
+.element-button-status.default.danger, .element-button-status.danger.loading {
+  background-color: #f04438;
+  border-color: #f04438;
+}
+
+.element-button-status.hover.danger {
+  background-color: #d92d20;
+  border-color: #d92d20;
+}
+
+.element-button-status.danger.focus {
+  background-color: #f97066;
+  border-color: #f97066;
+  box-shadow: 0 0 0 2px #d92d2040, 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+}
+
+.element-button-status.default.warning {
+  background-color: #f79009;
+  border-color: #f79009;
+}
+
+.element-button-status.active.warning {
+  background-color: #652104;
+  border-color: #652104;
+}
+
+.element-button-status.loading.success {
+  background-color: #16b364;
+  border-color: #16b364;
+}
+
+.element-button-status.hover.success {
+  background-color: #099250;
+  border-color: #099250;
+}
+
+.element-button-status.loading.warning {
+  background-color: #f79009;
+  border-color: #f79009;
+}
+
+.element-button-status.hover.warning {
+  background-color: #dc6803;
+  border-color: #dc6803;
+}
+
+.element-button-status.warning .svg-container {
+  background-image: url("background-5.63312151.svg");
+}
+
+.element-button-status.danger .svg-container {
+  background-image: url("background-2.f4a49294.svg");
+}
+
+.element-button-status.success .svg-container {
+  background-image: url("background-8.34b0127b.svg");
+}
+
+.element-button-status.active .button, .element-button-status.loading .button, .element-button-status.hover .button, .element-button-status.focus .button {
+  color: #fff;
+}
+
+.element-button-status.SM .button {
+  margin-top: -2.5px;
+  margin-bottom: -.5px;
+  font-size: 12px;
+  line-height: 19.2px;
+}
+
+.element-button-status.default .button {
+  color: #fff;
+}
+
+.element-button-status.LG .button {
+  margin-top: -4px;
+  margin-bottom: -2px;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.element-button-status.disable .button {
+  color: #98a2b3;
+}
+
+.element-button-status.MD .button {
+  font-size: 12px;
+  line-height: 19.2px;
+}
+
+.desktop {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.desktop .div {
+  background-color: #fff;
+  border: 1px;
+  width: 1436px;
+  height: 3338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.desktop .overlap-group {
+  width: 1440px;
+  height: 1138px;
+  position: absolute;
+  top: 161px;
+  left: 0;
+}
+
+.desktop .rectangle {
+  background-color: #f5faff8a;
+  width: 1440px;
+  height: 774px;
+  position: absolute;
+  top: 357px;
+  left: 0;
+}
+
+.desktop .rectangle-2 {
+  background-color: #4b88e4;
+  width: 1436px;
+  height: 369px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-3 {
+  background-color: #ffffffb5;
+  border-radius: 4px;
+  width: 547px;
+  height: 303px;
+  position: absolute;
+  top: 29px;
+  left: 52px;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.desktop .south-florida-s {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 443px;
+  font-family: Inter, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  position: absolute;
+  top: 40px;
+  left: 107px;
+}
+
+.desktop .text-wrapper {
+  color: #000;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+}
+
+.desktop .span {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.desktop .image {
+  width: 725px;
+  height: 379px;
+  position: absolute;
+  top: 368px;
+  left: 0;
+}
+
+.desktop .img {
+  object-fit: cover;
+  width: 719px;
+  height: 399px;
+  position: absolute;
+  top: 739px;
+  left: 717px;
+}
+
+.desktop .sports-injuries-the {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 654px;
+  height: 325px;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 382px;
+  left: 755px;
+}
+
+.desktop .text-wrapper-2 {
+  font-weight: 600;
+}
+
+.desktop .text-wrapper-3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.desktop .text-wrapper-4 {
+  font-size: 12px;
+}
+
+.desktop .ACL-injury-an-ACL {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 654px;
+  height: 325px;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 765px;
+  left: 25px;
+}
+
+.desktop .text-wrapper-5 {
+  font-weight: 600;
+}
+
+.desktop .text-wrapper-6 {
+  font-size: 12px;
+}
+
+.desktop .line {
+  object-fit: cover;
+  width: 1436px;
+  height: 1px;
+  position: absolute;
+  top: 1130px;
+  left: 0;
+}
+
+.desktop .welcome-to-our {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 524px;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  position: absolute;
+  top: 85px;
+  left: 64px;
+}
+
+.desktop .twitter-header {
+  width: 697px;
+  height: 290px;
+  position: absolute;
+  top: 41px;
+  left: 721px;
+}
+
+.desktop .overlap {
+  width: 554px;
+  height: 44px;
+  position: absolute;
+  top: 67px;
+  left: 868px;
+}
+
+.desktop .overlap-2 {
+  width: 554px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .p {
+  color: #000;
+  letter-spacing: 0;
+  width: 527px;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .line-2 {
+  object-fit: cover;
+  width: 33px;
+  height: 1px;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+.desktop .image-2 {
+  object-fit: cover;
+  width: 156px;
+  height: 44px;
+  position: absolute;
+  top: 116px;
+  left: 1272px;
+}
+
+.desktop .line-3 {
+  object-fit: cover;
+  width: 1237px;
+  height: 4px;
+  position: absolute;
+  top: 2395px;
+  left: 100px;
+}
+
+.desktop .overlap-3 {
+  width: 1436px;
+  height: 865px;
+  position: absolute;
+  top: 2473px;
+  left: 0;
+}
+
+.desktop .rectangle-4 {
+  width: 1436px;
+  height: 249px;
+  position: absolute;
+  top: 616px;
+  left: 0;
+}
+
+.desktop .rectangle-5 {
+  width: 1436px;
+  height: 621px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.desktop .image-3 {
+  object-fit: cover;
+  width: 433px;
+  height: 328px;
+  position: absolute;
+  top: 83px;
+  left: 36px;
+}
+
+.desktop .image-4 {
+  object-fit: cover;
+  width: 433px;
+  height: 328px;
+  position: absolute;
+  top: 85px;
+  left: 510px;
+}
+
+.desktop .image-5 {
+  object-fit: cover;
+  width: 433px;
+  height: 328px;
+  position: absolute;
+  top: 80px;
+  left: 984px;
+}
+
+.desktop .pembroke-pines {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 247px;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  position: absolute;
+  top: 420px;
+  left: 594px;
+}
+
+.desktop .text-wrapper-7 {
+  color: #fff;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+
+.desktop .text-wrapper-8 {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.desktop .text-wrapper-9, .desktop .text-wrapper-10 {
+  font-size: 14px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.desktop .weston-town {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 247px;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  position: absolute;
+  top: 417px;
+  left: 143px;
+}
+
+.desktop .text-wrapper-11 {
+  color: #fff;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+
+.desktop .text-wrapper-12 {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.desktop .text-wrapper-13, .desktop .text-wrapper-14 {
+  font-size: 14px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.desktop .plantation-SW {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 247px;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  position: absolute;
+  top: 420px;
+  left: 1073px;
+}
+
+.desktop .text-wrapper-15 {
+  color: #fff;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+
+.desktop .text-wrapper-16 {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.desktop .text-wrapper-17, .desktop .text-wrapper-18 {
+  font-size: 14px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.desktop .rectangle-6 {
+  width: 1436px;
+  height: 249px;
+  position: absolute;
+  top: 615px;
+  left: 0;
+}
+
+.desktop .copyright-MH {
+  color: #fff;
+  letter-spacing: 3.54px;
+  width: 1241px;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: underline;
+  position: absolute;
+  top: 667px;
+  left: 86px;
+}
+
+.desktop .text-wrapper-19, .desktop .text-wrapper-20, .desktop .text-wrapper-21, .desktop .text-wrapper-22, .desktop .text-wrapper-23 {
+  color: #fff;
+  letter-spacing: 3.54px;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.desktop .h-1 {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 1436px;
+  height: 71px;
+  font-family: Inter, Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .WHAT-WE-OFFER {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 1436px;
+  font-family: Inter, Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  position: absolute;
+  top: 1307px;
+  left: 2px;
+}
+
+.desktop .text-wrapper-24 {
+  font-weight: 600;
+}
+
+.desktop .text-wrapper-25 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.4px;
+}
+
+.desktop .image-6 {
+  object-fit: cover;
+  width: 644px;
+  height: 432px;
+  position: absolute;
+  top: 1365px;
+  left: 405px;
+}
+
+.desktop .overlap-4 {
+  width: 1436px;
+  height: 492px;
+  position: absolute;
+  top: 1903px;
+  left: 0;
+}
+
+.desktop .image-7 {
+  object-fit: cover;
+  width: 1436px;
+  height: 366px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-7 {
+  width: 1436px;
+  height: 179px;
+  position: absolute;
+  top: 292px;
+  left: 0;
+}
+
+.desktop .south-florida-s-2 {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 1388px;
+  height: 201px;
+  font-family: Inter, Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 291px;
+  left: 25px;
+}
+
+.desktop .text-wrapper-26 {
+  font-weight: 800;
+}
+
+.desktop .text-wrapper-27 {
+  color: #000;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.desktop .text-wrapper-28 {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 173px;
+  height: 7px;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 2409px;
+  left: 166px;
+}
+
+.desktop .image-8 {
+  object-fit: cover;
+  width: 599px;
+  height: 57px;
+  position: absolute;
+  top: 2407px;
+  left: 837px;
+}
+
+.desktop .text-wrapper-29 {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 382px;
+  font-family: Inter, Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  position: absolute;
+  top: 1530px;
+  left: -300px;
+}
+
+.desktop .south-florida {
+  width: 702px;
+  height: 129px;
+  position: absolute;
+  top: 18px;
+  left: 25px;
+}
+
+/*# sourceMappingURL=index.9f9e23ff.css.map */
